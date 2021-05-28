@@ -379,6 +379,11 @@ html {
     padding: 0 0 20px;
     border-bottom: 1px solid #ebebeb;
 
+    // Custom styles, make text more visible on images
+    background-color: rgba(0, 0, 0, .09);
+    padding: 1rem;
+    border-radius: 10px;
+
     .post-title {
       margin-bottom: 2px;
     }
