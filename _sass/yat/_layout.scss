@@ -218,9 +218,6 @@ html {
 %post-header {
   .post-header {
     margin-bottom: $spacing-unit;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
-    padding: 1rem;
   }
 
   .post-title {
@@ -371,6 +368,12 @@ html {
       padding: 0 15px;
     }
   }
+}
+
+header.post-header {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 1rem;
 }
 
 /**
