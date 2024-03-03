@@ -373,6 +373,12 @@ html {
 header.post-header {
     background: rgba(0, 0, 0, 0.8);
     border-radius: 15px;
+
+    @media screen and (max-width: $on-palm) {
+      h1 {
+        font-size: 30px;
+      }
+    }
 }
 
 /**
